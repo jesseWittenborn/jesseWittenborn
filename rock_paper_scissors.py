@@ -31,14 +31,14 @@ for play in range (3):
         if cpu_pick == "Rock":
             print("You win.. this time paper covers rock")
         else:
-            print(f"{loser}You lose!!! Scisors cuts paper fool!!!")
+            print(f"{loser}You lose!!! Scisors cuts paper")
     elif choice == 's':
         if cpu_pick == "Paper":
             print("You win..this time scisors cuts paper")
         else:
             print(f"{loser}You loser rock crushes scisors!!!")
     if loser >3:
-        print("Wow you suck!")
+        print("Wow you are terrible!")
   
     
 print("Game over")
